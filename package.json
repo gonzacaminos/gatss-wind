@@ -1,0 +1,34 @@
+{
+  "name": "gatss-wind",
+  "private": true,
+  "description": "Super simple Gatsby Starter with Sass and Tailwind",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.0",
+    "gatsby-plugin-sass": "^4.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2",
+    "sass": "^1.38.0",
+    "tailwindcss": "^2.2.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gonzacaminos/gatss-wind"
+  },
+  "bugs": {
+    "url": "https://github.com/gonzacaminos/gatss-wind/issues"
+  }
+}
